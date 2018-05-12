@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	text-align: center;
+	font-family: 'Pangolin', cursive;
+	font-size: 18px;
+}
+
+.parallax{
+	background-image: url(../assets/flowers.jpg);
+	opacity: 0.85;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+}
+
+#parallax1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#para-text{
+	font-size: 35px;
+}
+
+.section{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#one{
+	height: 128px;
+	width: 185px;
+	margin-left: 15px;
+}
+
+#two{
+	margin-right: 15px;
+	height: 139px;
+	width: 185px;
+}
+
+#three{
+	margin-left: 15px;
+	height: 139px;
+	width: 185px;
+}
